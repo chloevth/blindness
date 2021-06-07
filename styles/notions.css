@@ -1,0 +1,119 @@
+:root {
+    --primary-color: #0000;
+    --secondary-color: #ffff;
+    --third-color: #ed1d27;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 15%;
+    line-height: 2.4rem;
+    font-size: 1.6rem;
+    font-family: "Gotham", sans-serif;
+}
+
+.bg1 {
+    background-image: url(/Blindness/assets/pictures/weelchair\ \(heavy\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.bg3{
+    background-image: url(/Blindness/assets/pictures/blindfolded_girl\ \(heavy\).png);
+ background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.main__title {
+    color: red;
+    font-size: 3.2rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    margin-bottom: 5.6rem;
+    flex-wrap: wrap;
+    line-height: 4.8rem;
+}
+
+@media screen and (max-width: 1280px) {
+    .main__title {
+        font-size: 2.4rem;
+    }
+}
+
+.main__article--center {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.main__article--top {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+    
+.main__article--top-left{
+    width: 50%;
+    }
+
+.main__article--title {
+    font-size: 2.4rem;
+    margin-top: 4rem;
+    margin-bottom: 2.4rem;
+    line-height : 4rem;
+    flex-wrap: wrap;
+}
+
+.main__article--center-right {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.main__article--bottom-left {
+    justify-content: flex-start;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.main__article--bottom-list{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .main__article--top, .main__article--center-right, .main__article--center, .main__article--bottom-left, .main__article--top-left {
+        justify-content: flex-start;
+        width: 100%;
+    }
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1.6rem;
+}

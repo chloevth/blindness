@@ -1,0 +1,137 @@
+@font-face {
+    font-family: "Gotham";
+    src: url("../assets/fonts/Gotham-Light.otf") format("opentype"), url("../assets/fonts/Gotham-Bold.otf") format("opentype"), url("../assets/fonts/Gotham-Book.otf") format("opentype"), url("../assets/fonts/Gotham-Medium.otf") format("opentype");
+}
+
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+@media screen and (max-width: 992px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+.red {
+    color: #b50000;
+}
+
+.nav {
+    height: 7rem;
+    background-color: black;
+    font-family: "Gotham", sans-serif;
+}
+
+.logo {
+    max-height: 5rem;
+    max-width: 5rem;
+    margin: 1rem 0 1rem 4rem;
+}
+
+.logo, .logo-text {
+    position: relative;
+    z-index: 1;
+    display: block;
+    float: left;
+    cursor: pointer;
+}
+
+.logo-text {
+    color: white;
+    font-weight: bold;
+    line-height: 7rem;
+    margin-left: 0.6em;
+}
+
+.menu {
+    width: 100%;
+    height: 100vh;
+    display: none;
+    background-color: black;
+    font-size: 4.8rem;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 576px) {
+    .menu {
+        font-size: 3.2rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .menu {
+        font-size: 2.4rem;
+    }
+}
+
+.menu a {
+    line-height: 7rem;
+    display: block;
+}
+
+.menu a:hover {
+    color: #ed1d27;
+}
+
+.nav-menu-romanum, .nav-menu-romanum a {
+    color: #ed1d27;
+    flex-direction: column;
+}
+
+.nav-menu-name, .nav-menu-name a {
+    margin-left: 1rem;
+    color: white;
+    flex-direction: column;
+}
+
+label {
+    margin: 0 4rem 0 0;
+    font-size: 2.6rem;
+    line-height: 7rem;
+    display: block;
+    float: right;
+    cursor: pointer;
+    color: white;
+    text-align: right;
+    position: relative;
+    z-index: 1;
+}
+label:hover {
+    color: #ed1d27;
+}
+#toggle {
+    display: none;
+}
+
+#toggle:checked+.menu {
+    display: flex;
+}
+
+.noselect {
+    /*Pour désactiver la sélection dans tous les navigateurs, utilisé pour le header*/
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

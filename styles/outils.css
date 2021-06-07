@@ -1,0 +1,39 @@
+span{
+    color: red;
+}
+
+.bg2 { 
+    background-image: url(/Blindness/assets/pictures/blindfolded_girl.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+/* graphiques */
+.charts__title{
+    
+    margin-bottom: 3rem;
+}
+.charts__container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+
+.charts__item{
+width: 40%;
+
+background-color: rgba(255, 255, 255, 0.9);
+margin: auto;
+padding: 2rem;
+}
+
+.charts__item--paragraph{
+    background-color:rgba(0, 0, 0, 0.9);
+}
+
+
+

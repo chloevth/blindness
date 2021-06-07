@@ -1,0 +1,32 @@
+.footer {
+    margin-top: 10vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-family: "Gotham", sans-serif;
+    font-size: 1.6rem;
+}
+
+.footer label {
+    font-size: 1.6rem;
+}
+
+.footer-nav {
+    display: block;
+}
+
+.footer-link {
+    margin: 0 4rem 0 0;
+    line-height: 7rem;
+    z-index: 1;
+}
+
+.footer-link:hover {
+    color: #ed1d27;
+}
+
+.footer-nav-mentions-center {
+
+    text-align: center;
+
+}

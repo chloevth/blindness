@@ -1,0 +1,28 @@
+.mentions {
+    margin: 5% 15%;
+    font-family: "Gotham", sans-serif;
+    font-size : 1.2rem;
+    line-height : 2.4rem;
+}
+
+.mentions h2 {
+
+    padding : 2rem 0 2rem 0;
+}
+
+.h2-liens {
+    font-size : 1.8rem;
+    font-weight: bold;
+    padding-top : 1.6rem;
+}
+
+.mentions h3 {
+
+    padding : 1.6rem 0 1.6rem 1.6rem
+}
+
+.h3-content {
+
+    padding-left: 1.6rem;
+
+}
